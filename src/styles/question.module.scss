@@ -24,12 +24,14 @@
     margin-bottom: 10px;
 }
 
-.questionBox .reset {
+.questionBox .reset,
+.questionBox .correct {
     background-color: rgb(5, 211, 5);
     margin-left: 30px;
 }
 
-.questionBox .reset:hover {
+.questionBox .reset:hover,
+.questionBox .correct:hover {
     background-color: rgb(0, 163, 0);
 }
 
