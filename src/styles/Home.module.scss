@@ -1,0 +1,49 @@
+.container {
+    margin: auto;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+    backdrop-filter: blur(40px);
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    padding: 5px 7px;
+    background-color: rgb(255, 166, 0);
+    font-weight: 500px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;
+}
+
+.replay {
+    background-color: rgb(3, 231, 41);
+}
+
+.scoreContainer {
+    padding: 10px;
+}
+
+.scoreContainer .score {
+    text-align: center;
+    padding: 50px;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+}
+
+.submit:hover {
+    background-color: rgb(170, 111, 0);
+}
